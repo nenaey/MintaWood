@@ -1,0 +1,426 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MintaWood
+</name>
+</assembly>
+<members>
+<member name="T:MintaWood.DBWoodDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.CashierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.CustomersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.ItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SaleDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SalesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.UsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.ItemsQueryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SaleDetailsQueryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SalesQueryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SuppliersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.PurchasesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.PurchaseDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.QueryPurchasesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.CubitizationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.MoneyTransactionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.MoneyTransactionsQueryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.CashierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.CustomersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.ItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SaleDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SalesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.UsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.ItemsQueryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SaleDetailsQueryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SalesQueryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SuppliersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.PurchasesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.PurchaseDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.QueryPurchasesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.CubitizationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.MoneyTransactionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.MoneyTransactionsQueryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.CashierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.CustomersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.ItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SaleDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SalesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.UsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.ItemsQueryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SaleDetailsQueryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SalesQueryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.SuppliersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.PurchasesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.PurchaseDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.QueryPurchasesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.CubitizationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.MoneyTransactionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSet.MoneyTransactionsQueryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.CashierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.CustomersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.ItemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.SaleDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.SalesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.UsersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.ItemsQueryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.SaleDetailsQueryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.SalesQueryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.SuppliersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.PurchasesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.PurchaseDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.QueryPurchasesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.CubitizationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.MoneyTransactionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.MoneyTransactionsQueryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MintaWood.DBWoodDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MintaWood.DBWoodDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MintaWood.DBWoodDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MintaWood.DBWoodDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MintaWood.DBWoodDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MintaWood.DBWoodDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MintaWood.DBWoodDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MintaWood.DBWoodDataSetTableAdapters.TableAdapterManager.UpdateAll(MintaWood.DBWoodDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MintaWood.DBWoodDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MintaWood.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MintaWood.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MintaWood.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:MintaWood.My.Resources.Resources.Customers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MintaWood.My.Resources.Resources.Items">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MintaWood.My.Resources.Resources.LockedCashier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MintaWood.My.Resources.Resources.Money">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MintaWood.My.Resources.Resources.Screen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MintaWood.My.Resources.Resources.Suppliers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MintaWood.My.Resources.Resources.WoodBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
